@@ -1,0 +1,99 @@
+#laporan{
+	font-size: 10px;
+}
+.namaRS{
+	text-align: center;
+}
+
+.alamatRS{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.logoRS{
+	margin: 20px;
+	float: left;
+	height: 70px;
+	width: 70px;
+}
+
+.garis{
+	border-width: 5px;
+	margin-left: 1px;
+	border-color: black;
+}
+
+.judul1{
+	margin-top: -40px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.noKwi{
+	margin-top: -10px;
+	text-align: center;
+	padding-left: 130px;
+}
+
+
+.validasi{
+	margin-top: -10px;
+	float: right;
+}
+
+.isi{
+	padding-left: 20px;
+}
+
+.periodePerawatan{
+	float: left;
+}
+
+.dataKanan{
+	padding-left: 50px;
+}
+.unit{
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.jumlahTagihan{
+	font-weight: bold;
+}
+
+#tanggalTerbit{
+	float: right;
+	margin-right: 30px;
+}
+
+#keluarga{
+	margin-top: 60px;
+	margin-left: 50px;
+}
+#titik{
+	margin-left: -30px;
+}
+
+
+#petugas{
+	margin-top: 50px;
+	float: right;
+	margin-right: -90px;
+}
+
+#namaPetugas{
+	margin-right: 30px;
+}
+
+#print{
+	margin-left: 20px;
+	float: left;
+	margin-bottom: 10px;
+	width: 100px;  
+}
+
+.ratarupiah{
+text-align: right;
+}

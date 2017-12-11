@@ -1,0 +1,69 @@
+#laporan{
+	font-size: 10px;
+}
+.namaRS{
+	text-align: center;
+	font-weight: bold;
+}
+
+.alamatRS{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.logoRS{
+	margin: 20px;
+	float: left;
+	height: 70px;
+	width: 70px;
+}
+
+.garis{
+	border-width: 5px;
+	margin-left: 1px;
+	border-color: black;
+}
+
+.judul1{
+	margin-top: -40px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.isi{
+	padding-left: 20px;
+}
+
+.dataKanan{
+	padding-left: 50px;
+}
+.unit{
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#detail{
+	padding-left: 50px;
+}
+#print{
+	margin-left: 20px;
+	float: left;
+	margin-bottom: 10px;
+	width: 100px;  
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+    #no-print, #no-print *
+    {
+        display: none !important;
+    }
+
+}

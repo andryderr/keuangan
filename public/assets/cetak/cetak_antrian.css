@@ -1,0 +1,73 @@
+.batas{
+	margin-left: 100px;
+	width: 300px;
+	height: 330px;
+	border: 3px solid black;
+}
+
+hr{
+	background-color: black;
+}
+
+.judul{
+	text-align: center;
+	padding-top: 5px;
+}
+
+.rs{
+	font-size: 12px;
+}
+
+.alamat{
+	font-size: 10px;
+}
+
+#no_antrian{
+	font-size: 80px;
+	text-align: center;	
+	margin-top: -20px;
+}
+
+#poli{
+	text-align: center;	
+	margin-top: -20px;
+}
+
+#tanggal{
+	text-align: center;
+}
+
+#jenis_berobat{
+	margin-top: 10px;
+}
+
+.batasgelang{
+	width: 10cm;
+}
+
+td{
+/*border: 2px solid black;	 */
+}
+
+table{
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.barcode{
+	border-width: 2px;
+	border-style: solid;
+	padding-left: 50px;
+	font-weight: bold;
+	width: 200px;
+	height: 50px;
+}
+
+.gelang{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+#namars{
+	padding-left: 25px;
+}

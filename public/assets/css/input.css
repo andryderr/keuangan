@@ -1,0 +1,115 @@
+.register{
+	font-size: 50px;
+	text-align:center;
+	 font-family: 'Roboto', sans-serif;
+	margin-top: 130px;
+}
+.form-horizontal{
+	padding-top: 30px;
+	padding-left: 100px;
+	
+}
+
+button{
+	margin-left: 180px;
+}
+
+.judul{
+	font-family: 'Roboto', sans-serif;
+	margin-left: 400px;
+	margin-top: 70px;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.treg{
+	width: 300px; /* menentukan lebar bulatan */
+	height: 52px; /* menentukan tinggi bulatan */
+	padding: 5px;
+	background: #E53935;
+	color: #ffffff;
+	cursor: pointer;
+	margin-left: 500px;
+	font-size: 20px;
+}
+
+.treg:hover{
+	background: #00897b;
+}
+
+#uploud{
+  background-color: transparent;
+}
+
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* Jika berukuran 980px atau kurang*/
+@media screen and (max-width: 980px) {
+    
+    }
+     #wrapperReg{
+      width: 65%;   
+    }
+
+
+
+ 
+}
+ 
+/* Jika berukuran 700px atau kurang*/
+@media screen and (max-width: 700px) {
+
+	.judul{
+    	margin-left: 90px;
+    	font-size: 20px; 
+    }
+
+    #wrapperReg{
+     width: auto;
+     float: none;   
+    }
+
+}
+ 
+/* Jika berukuran 480px atau kurang*/
+@media screen and (max-width: 480px) {
+
+	 button{
+    	width: auto;
+    	margin-left: 40px;
+    }
+
+    .judul{
+    	margin-left: 90px;
+    	font-size: 20px; 
+    }
+
+     #wrapperReg {
+        width: auto;
+        float: none;
+    }
+ 
+}
+
